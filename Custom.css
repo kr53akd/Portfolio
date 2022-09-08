@@ -162,7 +162,7 @@ img{
    z-index: 100;
    margin-left:200px;
    transform: scale(.8);
-   margin-right: 20px;
+   margin-right: auto inherit;
 }
 #header .hamburger::after{
    position: absolute;
