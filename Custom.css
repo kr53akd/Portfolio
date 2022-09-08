@@ -368,7 +368,7 @@ img{
    flex-direction: column;
    max-width: 1200px;
    margin: 0 auto;
-   padding: 100px; 
+   padding: 100px 20px; 
  }
 
  #projects .projects-header h1{
@@ -454,7 +454,7 @@ opacity:.5 ;
    flex-direction: column;
    max-width: 1200px;
    margin: 0vh auto;
-   padding:100px;
+   padding:100px 20px;
   }
 
   #education .education .education-top h1{
