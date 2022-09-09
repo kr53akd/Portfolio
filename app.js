@@ -3,6 +3,7 @@ const mobile_menu = document.querySelector('.header .nav-bar .nav-list ul li');
 const header = document.querySelector('.header ,.container');
 
 hamburger.addEventListener('click',()=>{
+    hamburger.style.transition = '.5s ease toggleClose';
     hamburger.classList.toggle('active');
     mobile_menu.classList.toggle('active');
 });
@@ -16,5 +17,10 @@ document.addEventListener('scroll',()=>{
      {
         header.style.backgroundColor = 'transparent';
      }
-})
+});
+function toggleClose()
+   {
+      hamburger.classList.toggle('active');
+      mobile_menu.classList.toggle('active');
+   }
 
