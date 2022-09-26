@@ -25,6 +25,13 @@ img{
    font-weight: 300;
    letter-spacing: .05rem;
  }
+ #arrow {
+   position: fixed;
+   bottom:30px;
+   right: 2%;
+   width:40px;
+   height: 40px;
+ }
  .brand h1{
    font-size: 3rem;
    text-transform: uppercase;
@@ -468,16 +475,19 @@ opacity:.5 ;
    flex-wrap: wrap;
    padding: 1rem 0;
    padding-left: 3rem;
-   background-image: linear-gradient(60deg, #29323c, #485563 100%);
-   box-shadow :0px 0px 10px 0px black; 
-   border-radius: 10px;   
+   
   }
   #education .education .box-container .box{
    width: 93%;
-   margin: 4rem 1rem;
+   margin: 1.5rem 1rem;
+   padding:4rem;
    padding-left: 4rem;
    border-left: .3rem solid crimson;
    position: relative;
+   background-image: linear-gradient(60deg, #29323c, #485563 100%);
+   box-shadow :0px 0px 10px 0px black; 
+   border-radius: 10px; 
+   height: 50vh;
   }
   #education .education .box-container .box span{
    font-size: 1.3rem;
@@ -538,12 +548,12 @@ opacity:.5 ;
   #skill .body li{
    color:white;
    text-transform: uppercase;
-   margin: 20px 0;
+   margin: 10vh 0;
    padding: 10px;
    background-image: linear-gradient(60deg, #29323c, #485563 100%);
    border-radius: 10px;
    box-shadow:0px 0px 10px 0px black; 
-   height: 12vh;
+   height: 8vh;
   }
   #skill .body .bar{
    background:#353b48;
@@ -968,6 +978,28 @@ opacity:.5 ;
       box-shadow: 0px 0px 10px 0px black;
       transition: .3s ease box-shadow;
    }
+
+   /* Education Section */
+
+   #education .education .box-container{
+      display: flex;
+      flex-direction: row;
+      
+     }
+     #education .education .box-container .box{
+      width: 93%;
+      margin: 1.5rem 1rem;
+      padding:4rem;
+      padding-left: 4rem;
+      border-left: .3rem solid crimson;
+      position: relative;
+      background-image: linear-gradient(60deg, #29323c, #485563 100%);
+      box-shadow :0px 0px 10px 0px black; 
+      border-radius: 10px; 
+      width:30%;
+      height: 50vh;
+     }
+
    /* #contact .contact-item{
       margin: 20px;
       flex-direction: row;
