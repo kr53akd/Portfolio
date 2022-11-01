@@ -586,7 +586,7 @@ opacity:.5 ;
     animation: 3s html;
  }
  #skill .body .bar .javascript{
-   width:30%;
+   width:60%;
     animation: 3s javascript;
 }
 #skill .body .bar .c{
@@ -620,6 +620,14 @@ opacity:.5 ;
 #skill .body .bar .css{
    width:70%;
     animation: 3s css;
+}
+#skill .body .bar .reactjs{
+   width: 55%;
+   animation: 3s reactjs;
+}
+#skill .body .bar .java{
+   width: 25%;
+   animation: 3s java;
 }
 /* End Skill */
 
@@ -810,7 +818,7 @@ opacity:.5 ;
       width: 0%;
    }
    100%{
-      width: 30%;
+      width: 60%;
    }
  }
  @keyframes c{
@@ -867,6 +875,22 @@ opacity:.5 ;
    }
    100%{
       width: 75%;
+   }
+ }
+ @keyframes java {
+   0%{
+       width: 0%;
+   }
+  100%{
+      width: 25%;
+  }  
+ }
+ @keyframes reactjs{
+   0%{
+      width: 0%;
+   }
+   100%{
+      width: 55%;
    }
  }
  /* End Keyframes */
